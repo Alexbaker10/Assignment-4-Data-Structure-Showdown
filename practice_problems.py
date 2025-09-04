@@ -13,9 +13,7 @@ Output: False
 """
 
 def has_duplicates(product_ids):
-    # Your implementation here
-    pass
-
+    return len(product_ids) != len(set(product_ids))
 
 """
 Problem 2: Order Manager
@@ -32,14 +30,15 @@ task_queue.remove_oldest_task() → "Email follow-up"
 
 class TaskQueue:
     def __init__(self):
-        # Your initialization here
-        pass
+        self.tasks = []
 
     def add_task(self, task):
-        pass
+        self.tasks.append(task)
 
     def remove_oldest_task(self):
-        pass
+        if not self.tasks:
+            return None
+        return self.tasks.pop(0) 
 
 
 """
