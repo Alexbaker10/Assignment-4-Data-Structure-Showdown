@@ -1,0 +1,7 @@
+I choose to use the list and set data structures in python. To me they are the most efficent way to get ride of 
+duplicates in python. I am also very familiar with them so they had the added bonus of me knowing how to use them.
+This being a timed assignment shaped a lot about how I wrote my code. I wanted to keep it simple and write as little
+code as possible so I could finish in time. One compromise I made while writing my code was to the naming conventions
+I used while making the code. For example since I was in a rush I wrote def remove_duplicates_no_set(list):. When I
+finished I remembered that python has a function called list so I changed it to input_list for clarity. Another area where I comprimised
+would have to be in comments.
