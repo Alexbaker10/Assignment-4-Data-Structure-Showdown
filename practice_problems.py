@@ -56,10 +56,10 @@ tracker.get_unique_count() → 2
 
 class UniqueTracker:
     def __init__(self):
-        pass
+        self.unique_values = set()
 
     def add(self, value):
-        pass
+        self.unique_values.add(value)
 
     def get_unique_count(self):
-        pass
+        return len(self.unique_values)
